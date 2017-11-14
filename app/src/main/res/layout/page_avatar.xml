@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="15dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_simple_img"/>
+<LinearLayout
+    android:id="@+id/info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/avatar">
+    <include
+        layout="@layout/info_page"/>
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_toRightOf="@+id/avatar"
+        android:text="Edit your profile"
+        android:textSize="10sp"
+        android:layout_margin="10dp"
+        android:background="@color/colorGray"
+        android:gravity="center"
+        />
+
+</RelativeLayout>
