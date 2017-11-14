@@ -7,25 +7,25 @@
     <ImageView
         android:layout_width="@dimen/size_ic_page_header"
         android:layout_height="@dimen/size_ic_page_header"
-        android:src="@drawable/ic_action_camera"
+        android:src="@drawable/camera"
         android:layout_centerInParent="true"
-        android:layout_alignParentLeft="true"/>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
     <ImageView
         android:layout_width="@dimen/size_ic_page_header"
         android:layout_height="@dimen/size_ic_page_header"
-        android:src="@drawable/ic_send"
-        android:rotation="-40"
+        android:src="@drawable/send"
+        android:rotation="-35"
         android:layout_centerInParent="true"
-        android:layout_alignParentRight="true"/>
-    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <ImageView
+        android:layout_height="@dimen/size_ic_page_header"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:src="@drawable/instagram_logo"
         android:layout_centerInParent="true"
-        android:text="Instagram"
-        android:textSize="25dp"
-        android:textColor="@color/colorBlack"
-        android:fontFamily="cursive"
-        />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
 
 </RelativeLayout>

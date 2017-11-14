@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="size_ic_menu">35dp</dimen>
-    <dimen name="size_ic_news">25dp</dimen>
-    <dimen name="size_ic_page_header">30dp</dimen>
+    <dimen name="size_ic_menu">36dp</dimen>
+    <dimen name="size_ic_news">24dp</dimen>
+    <dimen name="size_ic_page_header">32dp</dimen>
 </resources>

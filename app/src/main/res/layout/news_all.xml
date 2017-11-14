@@ -23,7 +23,7 @@
         <ImageView
             android:layout_width="@dimen/size_ic_news"
             android:layout_height="@dimen/size_ic_news"
-            android:src="@drawable/ic_send"
+            android:src="@drawable/send"
             android:rotation="-40"
             android:layout_toRightOf="@+id/ic_favorite"
             android:layout_toEndOf="@+id/ic_favorite"

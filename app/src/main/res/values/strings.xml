@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">HWork07_UI_Layouts</string>
+    <string name="number_followers">454</string>
+    <string name="text_followers">followers</string>
+    <string name="nunber_following">543</string>
+    <string name="text_following">following</string>
+    <string name="number_posts">56</string>
+    <string name="text_posts">posts</string>
 </resources>

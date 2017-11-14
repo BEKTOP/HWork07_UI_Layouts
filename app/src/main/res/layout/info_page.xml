@@ -10,14 +10,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="100"
+            android:text="@string/number_posts"
             style="@style/Info_page_count"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="posts"
+            android:text="@string/text_posts"
             android:paddingTop="7dp"
-
             style="@style/Info_page_names"
             />
     </LinearLayout>
@@ -30,13 +29,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="100"
+            android:text="@string/number_followers"
             style="@style/Info_page_count"/>
         <TextView
             android:paddingTop="7dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="followers"
+            android:text="@string/text_followers"
             style="@style/Info_page_names"/>
     </LinearLayout>
 
@@ -48,13 +47,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="100"
+            android:text="@string/nunber_following"
             style="@style/Info_page_count"/>
         <TextView
             android:paddingTop="7dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="following"
+            android:text="@string/text_following"
             style="@style/Info_page_names"/>
     </LinearLayout>
 </LinearLayout>
