@@ -6,5 +6,10 @@
     <string name="text_following">following</string>
     <string name="number_posts">56</string>
     <string name="text_posts">posts</string>
-    <string name="username">text_user_name</string>
+    <string name="text_user_name">User Name</string>
+    <string name="text_stories">Stories</string>
+    <string name="text_watch_all">Watch all</string>
+    <string name="simple_text">Text Text Text Text Text</string>
+    <string name="text_comments">View all 25 comments</string>
+    <string name="time_last_comments">20 HOURS AGO</string>
 </resources>

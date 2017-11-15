@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_margin="5dp"
-              android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,9 +13,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:padding="4dp"
-            android:text="Stories"
-            android:textColor="@color/colorBlack"/>
+            android:layout_margin="4dp"
+            android:text="@string/text_stories"
+            android:textColor="@color/colorBlack" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -23,19 +23,19 @@
             android:layout_alignParentRight="true">
 
             <ImageView
+                android:layout_centerInParent="true"
                 android:layout_width="12dp"
                 android:layout_height="12dp"
-                android:baselineAlignBottom="true"
+                android:layout_gravity="center_vertical"
                 android:rotation="180"
-                android:src="@drawable/triangle"
-                />
+                android:src="@drawable/triangle" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="4dp"
-                android:text="Watch all"
-                android:textColor="@color/colorBlack"/>
+                android:text="@string/text_watch_all"
+                android:textColor="@color/colorBlack" />
         </LinearLayout>
 
     </RelativeLayout>
@@ -47,10 +47,10 @@
 
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                      xmlns:app="http://schemas.android.com/apk/res-auto"
-                      android:layout_width="wrap_content"
-                      android:layout_height="match_parent"
-                      android:orientation="vertical">
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/card_1"
@@ -70,8 +70,8 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/image01"
-                    >
+                    android:src="@drawable/image01">
+
                 </ImageView>
             </android.support.v7.widget.CardView>
 
@@ -80,18 +80,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="-8dp"
+                android:layout_marginTop="-4dp"
                 android:text="UserName1"
                 android:textColor="@color/colorBlack"
-                android:textSize="12sp"
-                />
+                android:textSize="@dimen/text_size_small" />
         </LinearLayout>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                      xmlns:app="http://schemas.android.com/apk/res-auto"
-                      android:layout_width="wrap_content"
-                      android:layout_height="match_parent"
-                      android:orientation="vertical">
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/card_2"
@@ -111,8 +110,8 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/image03"
-                    >
+                    android:src="@drawable/image03">
+
                 </ImageView>
             </android.support.v7.widget.CardView>
 
@@ -121,18 +120,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="-8dp"
+                android:layout_marginTop="-4dp"
                 android:text="UserName2"
                 android:textColor="@color/colorBlack"
-                android:textSize="12sp"
-                />
+                android:textSize="@dimen/text_size_small" />
         </LinearLayout>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                      xmlns:app="http://schemas.android.com/apk/res-auto"
-                      android:layout_width="wrap_content"
-                      android:layout_height="match_parent"
-                      android:orientation="vertical">
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/card_3"
@@ -152,9 +150,10 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/image04"
-                    >
+                    android:src="@drawable/image04">
+
                 </ImageView>
+
             </android.support.v7.widget.CardView>
 
 
@@ -162,18 +161,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="-8dp"
+                android:layout_marginTop="-4dp"
                 android:text="UserName3"
                 android:textColor="@color/colorBlack"
-                android:textSize="12sp"
-                />
+                android:textSize="@dimen/text_size_small" />
         </LinearLayout>
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                      xmlns:app="http://schemas.android.com/apk/res-auto"
-                      android:layout_width="wrap_content"
-                      android:layout_height="match_parent"
-                      android:orientation="vertical">
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/card_4"
@@ -193,8 +191,8 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/image02"
-                    >
+                    android:src="@drawable/image02">
+
                 </ImageView>
             </android.support.v7.widget.CardView>
 
@@ -203,11 +201,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="-8dp"
+                android:layout_marginTop="-4dp"
                 android:text="UserName4"
                 android:textColor="@color/colorBlack"
-                android:textSize="12sp"
-                />
+                android:textSize="@dimen/text_size_small" />
         </LinearLayout>
     </LinearLayout>
 

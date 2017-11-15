@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp">
 
     <LinearLayout
         android:id="@+id/line1"
@@ -10,40 +11,36 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <include
-            layout="@layout/user_account_header"
-            />
+        <include layout="@layout/user_account_header" />
 
-        <include
-            layout="@layout/shape_line"
-            />
+        <include layout="@layout/shape_line" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/line2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/line1"
         android:orientation="vertical">
 
-        <include
-            layout="@layout/user_account_avatar"/>
+        <include layout="@layout/user_account_avatar" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="5sp"
-            android:text="UserName"
-            android:textColor="@color/colorBlack"/>
+            android:paddingLeft="12dp"
+            android:paddingBottom="6dp"
+            android:text="@string/text_user_name"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
 
-        <include
-            layout="@layout/shape_line"/>
+        <include layout="@layout/shape_line" />
 
-        <include
-            layout="@layout/user_account_menu"/>
+        <include layout="@layout/user_account_menu" />
 
-        <include
-            layout="@layout/shape_line"/>
+        <include layout="@layout/shape_line" />
     </LinearLayout>
 
 
@@ -57,21 +54,26 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include
-                layout="@layout/post_one"/>
+            <include layout="@layout/post_one" />
 
-            <include
-                layout="@layout/post_one"/>
+            <include layout="@layout/post_one" />
         </LinearLayout>
 
     </ScrollView>
 
+
+    <ImageView
+        android:layout_above="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray2"/>
     <LinearLayout
+        android:id="@+id/line4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
 
-        <include layout="@layout/user_account_menu_botom"/>
+        <include layout="@layout/user_account_menu_botom" />
     </LinearLayout>
 
 </RelativeLayout>

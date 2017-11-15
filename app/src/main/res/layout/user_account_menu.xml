@@ -3,36 +3,34 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:orientation="horizontal"
+    android:layout_margin="4dp"
     >
 
     <ImageView
-        android:layout_width="@dimen/size_ic_page_header"
-        android:layout_height="@dimen/size_ic_page_header"
+        android:layout_width="@dimen/size_small_button"
+        android:layout_height="@dimen/size_small_button"
         android:layout_weight="1"
-        android:padding="5dp"
+        android:tint="@color/colorPrimaryDark"
         android:src="@drawable/apps"/>
 
     <ImageView
-        android:layout_width="@dimen/size_ic_page_header"
-        android:layout_height="@dimen/size_ic_page_header"
+        android:layout_width="@dimen/size_small_button"
+        android:layout_height="@dimen/size_small_button"
         android:layout_weight="1"
-        android:padding="5dp"
         android:src="@drawable/format_list_bulleted"
         android:tint="@color/colorGray2"/>
 
     <ImageView
-        android:layout_width="@dimen/size_ic_page_header"
-        android:layout_height="@dimen/size_ic_page_header"
+        android:layout_width="@dimen/size_small_button"
+        android:layout_height="@dimen/size_small_button"
         android:layout_weight="1"
-        android:padding="5dp"
         android:src="@drawable/account_location"
         android:tint="@color/colorGray2"/>
 
     <ImageView
-        android:layout_width="@dimen/size_ic_page_header"
-        android:layout_height="@dimen/size_ic_page_header"
+        android:layout_width="@dimen/size_small_button"
+        android:layout_height="@dimen/size_small_button"
         android:layout_weight="1"
-        android:padding="5dp"
         android:src="@drawable/bookmark_outline"
         android:tint="@color/colorGray2"/>
 
