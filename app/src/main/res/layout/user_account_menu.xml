@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:layout_width="@dimen/size_ic_page_header"
+        android:layout_height="@dimen/size_ic_page_header"
+        android:src="@drawable/apps"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:layout_width="@dimen/size_ic_page_header"
+        android:layout_height="@dimen/size_ic_page_header"
+        android:tint="@color/colorGray2"
+        android:src="@drawable/format_list_bulleted"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:layout_width="@dimen/size_ic_page_header"
+        android:layout_height="@dimen/size_ic_page_header"
+        android:tint="@color/colorGray2"
+        android:src="@drawable/account_location"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:layout_width="@dimen/size_ic_page_header"
+        android:layout_height="@dimen/size_ic_page_header"
+        android:tint="@color/colorGray2"
+        android:src="@drawable/bookmark_outline"/>
+
+</LinearLayout>

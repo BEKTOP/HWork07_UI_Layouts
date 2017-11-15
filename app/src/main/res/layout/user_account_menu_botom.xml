@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/home"
+        android:clickable="true"
+        android:onClick="onHomeButtonClick"
+        style="@style/menu_botom"
+        android:tint="@color/colorGray2" />
+
+    <ImageView
+        android:src="@drawable/magnify"
+        style="@style/menu_botom"
+        android:tint="@color/colorGray2" />
+
+    <ImageView
+        android:src="@drawable/plus_box"
+        style="@style/menu_botom"
+        android:tint="@color/colorGray2" />
+
+    <ImageView
+        android:src="@drawable/heart"
+        style="@style/menu_botom"
+        android:tint="@color/colorGray2" />
+
+    <ImageView
+        android:src="@drawable/account"
+        style="@style/menu_botom"/>
+
+</LinearLayout>
