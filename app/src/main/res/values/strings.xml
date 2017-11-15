@@ -6,4 +6,5 @@
     <string name="text_following">following</string>
     <string name="number_posts">56</string>
     <string name="text_posts">posts</string>
+    <string name="username">text_user_name</string>
 </resources>

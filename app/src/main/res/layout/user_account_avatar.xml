@@ -1,15 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_margin="15dp"
+                android:layout_margin="16dp"
                 android:orientation="horizontal">
 
-    <de.hdodenhof.circleimageview.CircleImageView
+
+    <android.support.v7.widget.CardView
         android:id="@+id/avatar"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:src="@drawable/image03"/>
+        android:innerRadius="1dp"
+        android:shape="ring"
+        android:thicknessRatio="2"
+        app:cardCornerRadius="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+
+            android:id="@+id/image_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/image01"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+    </android.support.v7.widget.CardView>
+
 
     <LinearLayout
         android:id="@+id/info"
@@ -89,12 +111,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/info"
-        android:layout_margin="10dp"
+        android:layout_margin="8dp"
         android:layout_toRightOf="@+id/avatar"
         android:background="@color/colorGray"
         android:gravity="center"
         android:text="Edit your profile"
-        android:textSize="10sp"
+        android:textSize="12sp"
         />
 
 </RelativeLayout>

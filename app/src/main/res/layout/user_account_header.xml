@@ -11,16 +11,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_centerInParent="true"
-        android:paddingLeft="20dp"
-        android:text="UserName"
+        android:paddingLeft="12dp"
+        android:text="@string/username"
         android:textColor="@color/colorBlack"
-        android:textSize="15sp"
-        />
+        android:textSize="15sp"/>
 
     <ImageView
-        android:layout_width="12dp"
-        android:layout_height="12dp"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
         android:layout_centerInParent="true"
+        android:layout_margin="4dp"
         android:layout_toRightOf="@+id/user_name"
         android:rotation="180"
         android:src="@drawable/triangle"/>

@@ -1,34 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorGray"
-    android:orientation="horizontal">
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorGray"
+              android:orientation="horizontal">
 
     <ImageView
-        android:src="@drawable/home"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        android:padding="4dp"
         android:clickable="true"
         android:onClick="onHomeButtonClick"
-        style="@style/menu_botom"
-        android:tint="@color/colorGray2" />
+        android:src="@drawable/home"
+        android:tint="@color/colorGray2"/>
 
     <ImageView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        android:padding="4dp"
         android:src="@drawable/magnify"
-        style="@style/menu_botom"
-        android:tint="@color/colorGray2" />
+        android:tint="@color/colorGray2"/>
 
     <ImageView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        android:padding="4dp"
         android:src="@drawable/plus_box"
-        style="@style/menu_botom"
-        android:tint="@color/colorGray2" />
+        android:tint="@color/colorGray2"/>
 
     <ImageView
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        android:padding="4dp"
         android:src="@drawable/heart"
-        style="@style/menu_botom"
-        android:tint="@color/colorGray2" />
+        android:tint="@color/colorGray2"/>
 
     <ImageView
-        android:src="@drawable/account"
-        style="@style/menu_botom"/>
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:src="@drawable/account"/>
 
 </LinearLayout>
