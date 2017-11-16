@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:scaleType="centerCrop"
-        android:src="@drawable/image03"
+        android:src="@drawable/image02"
         />
 
     <RelativeLayout

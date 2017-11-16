@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <include layout="@layout/post_one"/>
+            <include layout="@layout/post_two"/>
 
             <include layout="@layout/post_one"/>
         </LinearLayout>
