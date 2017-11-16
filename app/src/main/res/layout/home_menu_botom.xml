@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorGray"
-    android:orientation="horizontal"
-    >
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorGray"
+              android:orientation="horizontal">
 
     <ImageView
         style="@style/small_btn_style"
-        android:src="@drawable/home" />
+        android:src="@drawable/home"
+        android:tint="@color/colorBlack"/>
 
     <ImageView
         style="@style/small_btn_style"
-        android:src="@drawable/magnify"
-        android:tint="@color/colorGray2" />
+        android:src="@drawable/magnify"/>
 
     <ImageView
         style="@style/small_btn_style"
-        android:src="@drawable/plus_box"
-        android:tint="@color/colorGray2" />
+        android:src="@drawable/plus_box"/>
 
     <ImageView
         style="@style/small_btn_style"
-        android:src="@drawable/heart"
-        android:tint="@color/colorGray2" />
+        android:src="@drawable/heart"/>
 
     <ImageView
         style="@style/small_btn_style"
         android:clickable="true"
         android:onClick="onAccountButtonClick"
-        android:src="@drawable/account"
-        android:tint="@color/colorGray2" />
+        android:src="@drawable/account"/>
 
 </LinearLayout>

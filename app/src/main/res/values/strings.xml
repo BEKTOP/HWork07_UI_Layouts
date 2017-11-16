@@ -12,4 +12,10 @@
     <string name="simple_text">Text Text Text Text Text</string>
     <string name="text_comments">View all 25 comments</string>
     <string name="time_last_comments">20 HOURS AGO</string>
+    <string name="text_username1">UserName1</string>
+    <string name="text_username2">UserName2</string>
+    <string name="text_username3">UserName3</string>
+    <string name="text_username4">UserName4</string>
+    <string name="text_likes_count">1 234 likes</string>
+    <string name="text_button_edit_your_profile">Edit your profile</string>
 </resources>

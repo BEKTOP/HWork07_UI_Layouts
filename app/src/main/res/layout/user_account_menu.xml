@@ -2,36 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:orientation="horizontal"
-    android:layout_margin="4dp"
-    >
+              android:layout_margin="4dp"
+              android:orientation="horizontal">
 
     <ImageView
-        android:layout_width="@dimen/size_small_button"
-        android:layout_height="@dimen/size_small_button"
-        android:layout_weight="1"
-        android:tint="@color/colorPrimaryDark"
-        android:src="@drawable/apps"/>
+        style="@style/account_menu_button_style"
+        android:src="@drawable/apps"
+        android:tint="@color/colorPrimaryDark"/>
 
     <ImageView
-        android:layout_width="@dimen/size_small_button"
-        android:layout_height="@dimen/size_small_button"
-        android:layout_weight="1"
-        android:src="@drawable/format_list_bulleted"
-        android:tint="@color/colorGray2"/>
+        style="@style/account_menu_button_style"
+        android:src="@drawable/format_list_bulleted"/>
 
     <ImageView
-        android:layout_width="@dimen/size_small_button"
-        android:layout_height="@dimen/size_small_button"
-        android:layout_weight="1"
-        android:src="@drawable/account_location"
-        android:tint="@color/colorGray2"/>
+        style="@style/account_menu_button_style"
+        android:src="@drawable/account_location"/>
 
     <ImageView
-        android:layout_width="@dimen/size_small_button"
-        android:layout_height="@dimen/size_small_button"
-        android:layout_weight="1"
-        android:src="@drawable/bookmark_outline"
-        android:tint="@color/colorGray2"/>
+        style="@style/account_menu_button_style"
+        android:src="@drawable/bookmark_outline"/>
 
 </LinearLayout>

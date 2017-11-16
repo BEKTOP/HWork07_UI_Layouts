@@ -10,26 +10,24 @@
         style="@style/small_btn_style"
         android:clickable="true"
         android:onClick="onHomeButtonClick"
-        android:src="@drawable/home"
-        android:tint="@color/colorGray2" />
+        android:src="@drawable/home"/>
 
     <ImageView
         style="@style/small_btn_style"
-        android:src="@drawable/magnify"
-        android:tint="@color/colorGray2" />
+        android:src="@drawable/magnify"/>
 
     <ImageView
         style="@style/small_btn_style"
-        android:src="@drawable/plus_box"
-        android:tint="@color/colorGray2" />
+        android:src="@drawable/plus_box"/>
 
     <ImageView
         style="@style/small_btn_style"
         android:src="@drawable/heart"
-        android:tint="@color/colorGray2" />
+         />
 
     <ImageView
         style="@style/small_btn_style"
-        android:src="@drawable/account" />
+        android:src="@drawable/account"
+        android:tint="@color/colorBlack"/>
 
 </LinearLayout>

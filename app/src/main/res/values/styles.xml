@@ -14,6 +14,68 @@
         <item name="android:layout_height">@dimen/size_small_button</item>
         <item name="android:layout_weight">1</item>
         <item name="android:layout_margin">4dp</item>
+        <item name="android:tint">@color/colorGrayDark</item>
     </style>
+
+    <style name="cards_style">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:innerRadius">1dp</item>
+        <item name="android:shape">ring</item>
+        <item name="android:thicknessRatio">2</item>
+
+    </style>
+
+    <style name="cards_image_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="cards_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">-4dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="text_account_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:textColor">@color/colorGrayDark</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="card_view_avatar_style">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:innerRadius">1dp</item>
+        <item name="android:shape">ring</item>
+        <item name="android:thicknessRatio">2</item>
+    </style>
+
+    <style name="small_header_button_styly">
+        <item name="android:layout_width">@dimen/size_small_button</item>
+        <item name="android:layout_height">@dimen/size_small_button</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="account_menu_button_style">
+        <item name="android:layout_width">@dimen/size_small_button</item>
+        <item name="android:layout_height">@dimen/size_small_button</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:tint">@color/colorGrayDark</item>
+    </style>
+
 
 </resources>
