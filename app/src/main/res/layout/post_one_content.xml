@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:scaleType="centerCrop"
-        android:src="@drawable/image02"
-        />
+        android:src="@drawable/image02" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignTop="@+id/btn_chat"
-            android:src="@drawable/heart_outline"/>
+            android:src="@drawable/heart_outline" />
 
         <ImageView
             android:id="@+id/btn_chat"
@@ -33,7 +33,7 @@
             android:layout_margin="4dp"
             android:layout_toEndOf="@+id/ic_favorite"
             android:layout_toRightOf="@+id/ic_favorite"
-            android:src="@drawable/message_outline"/>
+            android:src="@drawable/message_outline" />
 
         <ImageView
             android:layout_width="@dimen/size_small_button"
@@ -41,14 +41,14 @@
             android:layout_toEndOf="@+id/btn_chat"
             android:layout_toRightOf="@+id/btn_chat"
             android:rotation="-40"
-            android:src="@drawable/send"/>
+            android:src="@drawable/send" />
 
         <ImageView
             android:layout_width="@dimen/size_small_button"
             android:layout_height="@dimen/size_small_button"
             android:layout_alignParentRight="true"
             android:layout_margin="4dp"
-            android:src="@drawable/bookmark_outline"/>
+            android:src="@drawable/bookmark_outline" />
 
     </RelativeLayout>
 
@@ -62,27 +62,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/text_likes_count"
-            android:textColor="@color/colorBlack"
-            android:textSize="@dimen/text_size_small"/>
+            style="@style/text_view_black_style"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/simple_text"
-            android:textColor="@color/colorBlack"
-            android:textSize="@dimen/text_size_small"/>
+            style="@style/text_view_black_style" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text_comments"
-            android:textSize="@dimen/text_size_small"/>
+            style="@style/text_view_style" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/time_last_comments"
-            android:textSize="@dimen/text_size_small"/>
+            style="@style/text_view_style" />
 
     </LinearLayout>
 

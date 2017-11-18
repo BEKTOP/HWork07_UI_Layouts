@@ -16,6 +16,7 @@
     <string name="text_username2">UserName2</string>
     <string name="text_username3">UserName3</string>
     <string name="text_username4">UserName4</string>
+    <string name="text_username5">UserName5</string>
     <string name="text_likes_count">1 234 likes</string>
     <string name="text_button_edit_your_profile">Edit your profile</string>
 </resources>

@@ -3,4 +3,6 @@
 
     <dimen name="size_small_button">26dp</dimen>
     <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_big">16sp</dimen>
+
 </resources>

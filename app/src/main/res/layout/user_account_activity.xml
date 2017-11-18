@@ -31,10 +31,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="6dp"
-            android:paddingLeft="12dp"
+            android:layout_marginLeft="10dp"
             android:text="@string/text_user_name"
-            android:textColor="@color/colorBlack"
-            android:textStyle="bold"/>
+            style="@style/text_view_black_big_style" />
 
         <include layout="@layout/shape_line"/>
 
